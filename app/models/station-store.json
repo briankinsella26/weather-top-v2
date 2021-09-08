@@ -1,0 +1,184 @@
+{
+  "stationCollection": [
+    {
+      "id": "8b301260-d267-11eb-a8f7-591ae1064ded",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "name": "Tramore",
+      "latitude": 52.16235,
+      "longitude": -7.15244,
+      "readings": [
+        {
+          "date": "2021-09-08T11:23:18.332Z",
+          "id": "2aa6bfc0-1097-11ec-ae76-b3a21da6e418",
+          "code": 500,
+          "temperature": 10,
+          "windSpeed": 10,
+          "windDirection": 210,
+          "pressure": 1000
+        },
+        {
+          "date": "2021-09-08T11:23:31.586Z",
+          "id": "328d2620-1097-11ec-ae76-b3a21da6e418",
+          "code": 700,
+          "temperature": 3,
+          "windSpeed": 34,
+          "windDirection": 100,
+          "pressure": 1001
+        },
+        {
+          "date": "2021-09-08T11:23:51.756Z",
+          "id": "3e92d8c0-1097-11ec-ae76-b3a21da6e418",
+          "code": 300,
+          "temperature": -5,
+          "windSpeed": 53,
+          "windDirection": 32,
+          "pressure": 1002
+        }
+      ],
+      "temperatureTrend": "arrow down icon",
+      "windSpeedTrend": "arrow up icon",
+      "pressureTrend": "arrow up icon",
+      "latestReading": {
+        "date": "2021-09-08T11:23:51.756Z",
+        "id": "3e92d8c0-1097-11ec-ae76-b3a21da6e418",
+        "code": 300,
+        "temperature": -5,
+        "windSpeed": 53,
+        "windDirection": 32,
+        "pressure": 1002
+      },
+      "maxTemperature": 10,
+      "minTemperature": -5,
+      "maxPressure": 1002,
+      "minPressure": 1000,
+      "tempCelcius": -5,
+      "tempFahrenheit": 23,
+      "beaufortLabel": "Near Gale",
+      "beaufort": 7,
+      "windCompass": "NNE",
+      "windChill": -15,
+      "weatherIcon": "cloud icon",
+      "weatherLabel": "Cloudy"
+    },
+    {
+      "id": "12345678432345676543456754",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "name": "Dunmore",
+      "latitude": 52.1499994,
+      "longitude": -6.9833294,
+      "readings": [
+        {
+          "date": "2021-09-08T11:24:24.565Z",
+          "id": "52211a50-1097-11ec-ae76-b3a21da6e418",
+          "code": 400,
+          "temperature": 10,
+          "windSpeed": 43,
+          "windDirection": 210,
+          "pressure": 1000
+        },
+        {
+          "date": "2021-09-08T11:24:42.922Z",
+          "id": "5d1228a0-1097-11ec-ae76-b3a21da6e418",
+          "code": 800,
+          "temperature": -3,
+          "windSpeed": 23,
+          "windDirection": 321,
+          "pressure": 999
+        },
+        {
+          "date": "2021-09-08T11:25:06.244Z",
+          "id": "6af8d040-1097-11ec-ae76-b3a21da6e418",
+          "code": 600,
+          "temperature": -10,
+          "windSpeed": 55,
+          "windDirection": 300,
+          "pressure": 1001
+        }
+      ],
+      "temperatureTrend": "arrow down icon",
+      "windSpeedTrend": "",
+      "pressureTrend": "",
+      "latestReading": {
+        "date": "2021-09-08T11:25:06.244Z",
+        "id": "6af8d040-1097-11ec-ae76-b3a21da6e418",
+        "code": 600,
+        "temperature": -10,
+        "windSpeed": 55,
+        "windDirection": 300,
+        "pressure": 1001
+      },
+      "maxTemperature": 10,
+      "minTemperature": -10,
+      "maxPressure": 1001,
+      "minPressure": 999,
+      "tempCelcius": -10,
+      "tempFahrenheit": 14,
+      "beaufortLabel": "Near Gale",
+      "beaufort": 7,
+      "windCompass": "W",
+      "windChill": -22,
+      "weatherIcon": "cloud rain icon",
+      "weatherLabel": "Rain"
+    },
+    {
+      "id": "47097890-1094-11ec-a0f1-8726b9e8fea3",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "name": "Kilmore",
+      "latitude": "52.112",
+      "longitude": "-7.3456",
+      "readings": [
+        {
+          "date": "2021-09-08T11:21:02.276Z",
+          "id": "d98e4040-1096-11ec-ae76-b3a21da6e418",
+          "code": 100,
+          "temperature": 12,
+          "windSpeed": 100,
+          "windDirection": 100,
+          "pressure": 1000
+        },
+        {
+          "date": "2021-09-08T11:21:37.643Z",
+          "id": "eea2d3b0-1096-11ec-ae76-b3a21da6e418",
+          "code": 200,
+          "temperature": 14,
+          "windSpeed": 32,
+          "windDirection": 231,
+          "pressure": 1001
+        },
+        {
+          "date": "2021-09-08T11:21:56.822Z",
+          "id": "fa114f60-1096-11ec-ae76-b3a21da6e418",
+          "code": 400,
+          "temperature": 18,
+          "windSpeed": 11,
+          "windDirection": 21,
+          "pressure": 1002
+        }
+      ],
+      "temperatureTrend": "arrow up icon",
+      "windSpeedTrend": "arrow down icon",
+      "pressureTrend": "arrow up icon",
+      "latestReading": {
+        "date": "2021-09-08T11:21:56.822Z",
+        "id": "fa114f60-1096-11ec-ae76-b3a21da6e418",
+        "code": 400,
+        "temperature": 18,
+        "windSpeed": 11,
+        "windDirection": 21,
+        "pressure": 1002
+      },
+      "maxTemperature": 18,
+      "minTemperature": 12,
+      "maxPressure": 1002,
+      "minPressure": 1000,
+      "tempCelcius": 18,
+      "tempFahrenheit": 64,
+      "beaufortLabel": "Light Breeze",
+      "beaufort": 2,
+      "windCompass": "NNE",
+      "windChill": 18,
+      "weatherIcon": "cloud sun rain icon",
+      "weatherLabel": "Light Showers"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+<div class="ui inverted cards ui five cards">
+  <div class="card">
+    <div class="content">
+      <br />
+      <h4 class="icon header ui right floated">
+        <i class="ui purple map marker icon"></i>
+      </h4>
+      <div class="header">{{name}}</div>
+      <br />
+      <div class="meta">Lat: {{latitude}}</div>
+      <div class="meta">Lng: {{longitude}}</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="content">
+      <br />
+      <h4 class="icon header ui right floated">
+        <i class="ui red {{weatherIcon}}"></i>
+      </h4>
+      <div class="header">Weather</div>
+      <br />
+      <div class="meta">{{weatherLabel}}</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="content">
+      <br />
+      <h4 class="icon header ui right floated">
+        <i class="ui blue temperature low icon"></i>
+      </h4>
+      <div class="header">Temp</div>
+      <br />
+      <div class="meta">{{tempCelcius}} C</div>
+      <div class="meta">{{tempFahrenheit}} F</div>
+      <h6 class="icon header ui right floated">
+        <i class="ui blue {{temperatureTrend}}"></i>
+      </h6>
+      <div class="meta">Max: {{maxTemperature}} C</div>
+      <div class="meta">Min: {{minTemperature}} C</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="content">
+      <br />
+      <h4 class="icon header ui right floated">
+        <i class="ui green wind icon"></i>
+      </h4>
+      <div class="header">Wind</div>
+      <br />
+      <div class="meta">{{beaufort}} bft</div>
+      <div class="meta">{{windCompass}}</div>
+      <h6 class="icon header ui right floated">
+        <i class="ui green {{windSpeedTrend}}"></i>
+      </h6>
+      <div class="meta">Feels like</div>
+      <div class="meta">{{windChill}} C</div>
+      <div class="meta">Max: {{maxBeaufort}}</div>
+      <div class="meta">Min: {{minBeaufort}}</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="content">
+      <br />
+      <h4 class="icon header ui right floated">
+        <i class="ui orange tachometer alternate icon"></i>
+      </h4>
+      <div class="header">Pressure</div>
+      <br />
+      <div class="meta">{{pressure}} hPa</div>
+      <div class="meta">Max: {{maxPressure}}</div>
+      <h6 class="icon header ui right floated">
+        <i class="ui orange {{pressureTrend}}"></i>
+      </h6>
+      <div class="meta">Min: {{minPressure}}</div>
+    </div>
+  </div>
+</div>

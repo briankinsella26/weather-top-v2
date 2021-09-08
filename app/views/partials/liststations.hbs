@@ -1,0 +1,19 @@
+<header class="ui header">
+  {{user.firstName}}
+  {{user.lastName}}'s Station List
+</header>
+
+{{#each stations}}
+  <section class="ui segment">
+    {{#if readings}}
+      {{> latestreading}}
+    {{else}}
+      <h2 class="ui header">{{this.name}}</h2>
+    {{/if}}
+    <div class="ui divider"></div>
+    <a href="/station/{{id}}" class="ui icon button"> <i class="folder icon"></i> </a>
+    <a href="/dashboard/deletestation/{{id}}" class="ui icon button">
+      <i class="icon trash"></i></a>
+  </section>
+{{/each}}
+{{addstation}}
