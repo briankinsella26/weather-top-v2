@@ -2,18 +2,21 @@
 
 <section class="ui segment">
   {{> liststations}}
-  <div id="mapid" style="height:180px"></div>
-  {{> addstation}}
-</section>
-
-<script>
-    var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+  <div id="mapid" style="height:300px"></div>
+  <script>
+    var mymap = L.map('mapid').setView([51.95, -7.6204], 8);
     L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-       attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
       maxZoom: 18,
       id: 'mapbox/streets-v11',
       tileSize: 512,
       zoomOffset: -1,
-      accessToken: 'your.mapbox.access.token'
-      }).addTo(mymap);
-    </script>
+      accessToken: 'pk.eyJ1IjoiYnJpYW5raW5zZWxsYTI2IiwiYSI6ImNrdGMya2IyeTBxZGEydm15MHZkejFwaGEifQ.2cvaVM8geR5QwyuuQvMLfA'
+    }).addTo(mymap);
+  </script>
+  {{#each stations}}
+    <script>L.marker([{{this.latitude}}, {{this.longitude}}]).addTo(mymap)</script>
+  {{/each}}
+  {{> addstation}}
+</section>
+
