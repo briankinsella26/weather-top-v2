@@ -1,44 +1,65 @@
 "use strict";
 
 const weatherCodes = {
-  getWeatherIcon(weatherCode) {
-    let weatherIcons = [
-      { code: 100, icon: "sun icon" },
-      { code: 200, icon: "cloud sun icon" },
-      { code: 300, icon: "cloud icon" },
-      { code: 400, icon: "cloud sun rain icon" },
-      { code: 500, icon: "cloud showers heavy icon" },
-      { code: 600, icon: "cloud rain icon" },
-      { code: 700, icon: "snowflake icon" },
-      { code: 800, icon: "bolt icon" },
+  getWeatherInfo(weatherCode) {
+    let weatherOptions = [
+      { id: 200, main: "Thunderstorm", descriptionription: " Thunderstorm with light rain", icon: "11d" },
+      { id: 201, main: "Thunderstorm", description: " Thunderstorm with rain", icon: "11d" },
+      { id: 202, main: "Thunderstorm", description: " Thunderstorm with heavy rain", icon: "11d" },
+      { id: 210, main: "Thunderstorm", description: " Light thunderstorm", icon: "11d" },
+      { id: 211, main: "Thunderstorm", description: " Thunderstorm", icon: "11d" },
+      { id: 212, main: "Thunderstorm", description: " Heavy thunderstorm", icon: "11d" },
+      { id: 221, main: "Thunderstorm", description: " Ragged thunderstorm", icon: "11d" },
+      { id: 230, main: "Thunderstorm", description: " Thunderstorm with light drizzle", icon: "11d" },
+      { id: 231, main: "Thunderstorm", description: " Thunderstorm with drizzle", icon: "11d" },
+      { id: 232, main: "Thunderstorm", description: " Thunderstorm with heavy drizzle", icon: "11d" },
+      { id: 300, main: "Drizzle", description: " Light intensity drizzle", icon: "09d" },
+      { id: 301, main: "Drizzle", description: " Drizzle", icon: " 09d" },
+      { id: 302, main: "Drizzle", description: " Heavy intensity drizzle", icon: "09d" },
+      { id: 310, main: "Drizzle", description: " Light intensity drizzle rain", icon: "09d" },
+      { id: 311, main: "Drizzle", description: " Drizzle rain", icon: "09d" },
+      { id: 312, main: "Drizzle", description: " Heavy intensity drizzle rain", icon: "09d" },
+      { id: 313, main: "Drizzle", description: " Shower rain and drizzle", icon: "09d" },
+      { id: 314, main: "Drizzle", description: " Heavy shower rain and drizzle", icon: "09d" },
+      { id: 321, main: "Drizzle", description: " Shower drizzle", icon: "09d" },
+      { id: 500, main: "Rain", description: "Light rain", icon: "10d" },
+      { id: 501, main: "Rain", description: "Moderate rain", icon: "10d" },
+      { id: 502, main: "Rain", description: "Heavy intensity rain", icon: "10d" },
+      { id: 503, main: "Rain", description: "Very heavy rain", icon: "10d" },
+      { id: 504, main: "Rain", description: "Extreme rain", icon: "10d" },
+      { id: 511, main: "Rain", description: "Freezing rain", icon: "13d" },
+      { id: 520, main: "Rain", description: "Light intensity shower rain", icon: "09d" },
+      { id: 521, main: "Rain", description: "Shower rain", icon: "09d" },
+      { id: 522, main: "Rain", description: "Heavy intensity shower rain", icon: "09d" },
+      { id: 531, main: "Rain", description: "Ragged shower rain", icon: "09d" },
+      { id: 600, main: "Snow", description: "Light snow", icon: "13d" },
+      { id: 601, main: "Snow", description: "Snow", icon: "13d" },
+      { id: 602, main: "Snow", description: "Heavy snow", icon: "13d" },
+      { id: 611, main: "Snow", description: "Sleet", icon: "13d" },
+      { id: 612, main: "Snow", description: "Light shower sleet", icon: "13d" },
+      { id: 613, main: "Snow", description: "Shower sleet", icon: "13d" },
+      { id: 615, main: "Snow", description: "Light rain and snow", icon: "13d" },
+      { id: 616, main: "Snow", description: "Rain and snow", icon: "13d" },
+      { id: 620, main: "Snow", description: "Light shower snow", icon: "13d" },
+      { id: 621, main: "Snow", description: "Shower snow", icon: "13d" },
+      { id: 622, main: "Snow", description: "Heavy shower snow", icon: "13d" },
+      { id: 701, main: "Mist", description: "Mist", icon: "50d" },
+      { id: 711, main: "Smoke", description: "Smoke", icon: "50d" },
+      { id: 721, main: "Haze", description: "Haze", icon: "50d" },
+      { id: 731, main: "Dust", description: "Sand/ dust whirls", icon: "50d" },
+      { id: 741, main: "Fog", description: "Fog", icon: "50d" },
+      { id: 751, main: "Sand", description: "Sand", icon: "50d" },
+      { id: 761, main: "Dust", description: "Dust", icon: "50d" },
+      { id: 762, main: "Ash", description: "Volcanic ash", icon: "50d" },
+      { id: 771, main: "Squall", description: "Squalls", icon: "50d" },
+      { id: 781, main: "Tornado", description: "Tornado", icon: "50d" },
+      { id: 800, main: "Clear", description: "Clear sky", icon: "01d" },
+      { id: 801, main: "Clouds", description: "Few clouds: 11-25%", icon: "02d" },
+      { id: 802, main: "Clouds", description: "Scattered clouds: 25-50%", icon: "03d" },
+      { id: 803, main: "Clouds", description: "Broken clouds: 51-84%", icon: "04d" },
+      { id: 804, main: "Clouds", description: "Overcast clouds: 85-100%", icon: "04d" },
     ];
-    let icon;
-    weatherIcons.forEach((weatherIcon) => {
-      if (weatherIcon["code"] == weatherCode) {
-        icon = weatherIcon["icon"];
-      }
-    });
-    return icon;
-  },
-  //todo move this all into one function
-  getWeatherLabel(weatherCode) {
-    let weatherLabels = [
-      { code: 100, label: "Clear" },
-      { code: 200, label: "Partial Clouds" },
-      { code: 300, label: "Cloudy" },
-      { code: 400, label: "Light Showers" },
-      { code: 500, label: "Heavy Showers" },
-      { code: 600, label: "Rain" },
-      { code: 700, label: "Snow" },
-      { code: 800, label: "Thunder" },
-    ];
-    let label;
-    weatherLabels.forEach((weatherLabel) => {
-      if (weatherLabel["code"] == weatherCode) {
-        label = weatherLabel["label"];
-      }
-    });
-    return label;
+    return weatherOptions.find((weatherOption) => weatherOption.id === weatherCode);
   },
 };
 

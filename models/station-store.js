@@ -42,6 +42,12 @@ const stationStore = {
     this.store.save();
   },
 
+  addTrendReport(id, report) {
+    const station = this.getStation(id);
+    station.report = report;
+    this.store.save();
+  },
+
   removeReading(id, readingId) {
     const station = this.getStation(id);
     const readings = station.readings;

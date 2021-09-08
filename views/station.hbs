@@ -6,7 +6,36 @@
   </h2>
   {{#if station.readings}}
     {{> latestreading station}}
-    {{> listreadings}}
+    <div class="ui segment" id="chart"></div>
+    <script>
+      const data = {
+        labels: [
+          {{#each station.report.trendLabels}}
+            "{{this}}",
+          {{/each}}
+        ],
+        datasets: [
+          {
+            name: "Temperature", type: "line",
+            values: [
+              {{#each station.report.tempTrend}}
+                {{this}},
+              {{/each}}
+            ]
+          }
+        ]
+      }
+      const chart = new frappe.Chart("#chart", {
+        title: "Temperature Trend",
+        data: data,
+        type: 'line',
+        height: 250,
+      })
+    </script>
+  {{> listreadings}}
   {{/if}}
   {{> addreading}}
+  <form class="ui segment form" action="/station/{{station.id}}/autoreading" method="POST">
+    <button class="ui red submit button">Auto Generate Reading</button>
+  </form>
 </section>
