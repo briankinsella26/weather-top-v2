@@ -7,6 +7,7 @@ The application connects to a database for storage and has a back-end and a fron
 the application, to read, write, edit and delete weather data.
 
 Attributes:
+
 1. User account functionality, signup, login, edit, logout.
 2. Storage and display of data per user
 3. Unlimited stations
@@ -22,7 +23,7 @@ Attributes:
 13. Homepage provides landing page UI and a feed of random weather facts
 
 Technologies:
-This application is built using [Nodejs] - https://nodejs.org/
+This application is built using [Express] framework - https://expressjs.com/ using [Nodejs] - https://nodejs.org/
 This project uses the [Fastify](https://www.fastify.io/) framework and explores basic templating with [Handlebars](https://handlebarsjs.com/).
 Weather data feed provided by (https://api.openweathermap.org).
 Maps have been implemented using [Leaflet] - https://leafletjs.com/ and tiles feed from [Mapbox] https://docs.mapbox.com/api/maps/static-tiles/
