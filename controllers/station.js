@@ -75,7 +75,6 @@ const station = {
         tempTrend: tempTrend,
         trendLabels: trendLabels,
       };
-      console.log(autoReading);
       stationStore.addTrendReport(station.id, trendReport);
       stationStore.addReading(station.id, autoReading);
     } else {

@@ -316,6 +316,91 @@
         "description": "Light rain",
         "icon": "10d"
       }
+    },
+    {
+      "id": "4409cf20-12ef-11ec-9124-331fb761ac41",
+      "userid": "2c444c80-12ef-11ec-9124-331fb761ac41",
+      "name": "London",
+      "latitude": "51.5074",
+      "longitude": "-0.1278",
+      "readings": []
+    },
+    {
+      "id": "6057e720-12ef-11ec-9124-331fb761ac41",
+      "userid": "2c444c80-12ef-11ec-9124-331fb761ac41",
+      "name": "Listowel",
+      "latitude": "52.4460",
+      "longitude": "-9.4854",
+      "readings": [
+        {
+          "date": "Sep 11, 2021, 11:59:55 AM",
+          "id": "65f8a340-12ef-11ec-9124-331fb761ac41",
+          "code": 804,
+          "temperature": 15.15,
+          "windSpeed": 2.81,
+          "windDirection": 326,
+          "pressure": 1017
+        },
+        {
+          "date": "Sep 11, 2021, 12:00:08 PM",
+          "id": "6d7dafc0-12ef-11ec-9124-331fb761ac41",
+          "code": 800,
+          "temperature": 20,
+          "windSpeed": 12,
+          "windDirection": 121,
+          "pressure": 1001
+        }
+      ],
+      "report": {
+        "tempTrend": [
+          15.33,
+          15.96,
+          15.56,
+          17.4,
+          17.46,
+          18.58,
+          15.64,
+          16.24
+        ],
+        "trendLabels": [
+          "11/8/2021",
+          "12/8/2021",
+          "13/8/2021",
+          "14/8/2021",
+          "15/8/2021",
+          "16/8/2021",
+          "17/8/2021",
+          "18/8/2021"
+        ]
+      },
+      "temperatureTrend": "",
+      "windSpeedTrend": "",
+      "pressureTrend": "",
+      "latestReading": {
+        "date": "Sep 11, 2021, 11:59:55 AM",
+        "id": "65f8a340-12ef-11ec-9124-331fb761ac41",
+        "code": 804,
+        "temperature": 15.15,
+        "windSpeed": 2.81,
+        "windDirection": 326,
+        "pressure": 1017
+      },
+      "maxTemperature": 15.15,
+      "minTemperature": 15.15,
+      "maxPressure": 1017,
+      "minPressure": 1017,
+      "tempCelcius": 15.15,
+      "tempFahrenheit": 59,
+      "beaufortLabel": "Light Air",
+      "beaufort": 1,
+      "windCompass": "WNW",
+      "windChill": 16,
+      "weatherInfo": {
+        "id": 804,
+        "main": "Clouds",
+        "description": "Overcast clouds: 85-100%",
+        "icon": "04d"
+      }
     }
   ]
 }
