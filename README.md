@@ -24,7 +24,7 @@ Attributes:
 
 Technologies:
 This application is built using [Express] framework - https://expressjs.com/ using [Nodejs] - https://nodejs.org/
-This project uses the [Fastify](https://www.fastify.io/) framework and explores basic templating with [Handlebars](https://handlebarsjs.com/).
+This project uses basic templating with [Handlebars](https://handlebarsjs.com/).
 Weather data feed provided by (https://api.openweathermap.org).
 Maps have been implemented using [Leaflet] - https://leafletjs.com/ and tiles feed from [Mapbox] https://docs.mapbox.com/api/maps/static-tiles/
 Trend charts have been implemented using [Frappe] - https://frappe.io/charts
