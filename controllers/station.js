@@ -32,7 +32,7 @@ const station = {
   addReading(request, response) {
     const stationId = request.params.id;
     const newReading = {
-      date: new Date().toLocaleString("en-IE", { dateStyle: "medium", timeStyle: "medium" }),
+      date: new Date().toLocaleString(),
       id: uuid.v1(),
       code: Number(request.body.code),
       temperature: Number(request.body.temperature),
@@ -62,7 +62,7 @@ const station = {
         trendLabels.push(`${date.getDate()}/${date.getMonth()}/${date.getFullYear()}`);
       }
       const autoReading = {
-        date: new Date().toLocaleString("en-IE", { dateStyle: "medium", timeStyle: "medium" }),
+        date: new Date().toLocaleString(),
         id: uuid.v1(),
         code: Number(reading.weather[0].id),
         temperature: Number(reading.temp),
