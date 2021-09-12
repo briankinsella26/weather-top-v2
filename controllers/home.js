@@ -8,9 +8,11 @@ const home = {
   index(request, response) {
     logger.info("home page rendering");
     let user = null;
+
     if (request.cookies.weathertop) {
       user = accounts.getCurrentUser(request);
     }
+    
     const viewData = {
       title: "Weathertop",
       fact: randomFact,
