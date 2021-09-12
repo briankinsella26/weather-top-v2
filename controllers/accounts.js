@@ -38,7 +38,8 @@ const accounts = {
     user.id = uuid.v1();
     userstore.addUser(user);
     logger.info(`registering ${user.email}`);
-    response.redirect("/");
+    response.cookie("weathertop", user.email);
+    response.redirect("/dashboard");
   },
 
   authenticate(request, response) {
