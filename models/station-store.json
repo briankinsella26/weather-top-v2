@@ -1,292 +1,327 @@
 {
   "stationCollection": [
     {
-      "id": "f45f2920-10cd-11ec-b72d-19ff4e5898e1",
+      "id": "51574c50-13a5-11ec-aba7-47419a209eb3",
       "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
       "name": "Tramore",
       "latitude": "52.164",
       "longitude": "-7.1524",
       "readings": [
         {
-          "date": "9/7/2021, 9:14:56 PM",
-          "id": "6f7b99a0-10e1-11ec-81d2-2be7f032ba87",
-          "code": 741,
-          "temperature": 16.38,
-          "windSpeed": 0.45,
-          "windDirection": 154,
-          "pressure": 1008
+          "date": "9/9/2021, 9:21:13 AM",
+          "id": "bbc56ee0-13a6-11ec-9608-ed49db7b073c",
+          "code": 501,
+          "temperature": 12.44,
+          "windSpeed": 7.39,
+          "windDirection": 5,
+          "pressure": 1019,
+          "beaufort": 2,
+          "tempCelcius": 13.44,
+          "tempFahrenheit": 54,
+          "beaufortLabel": "Light Air",
+          "windCompass": "N",
+          "windChill": 14,
+          "weatherInfo": {
+            "id": 501,
+            "main": "Rain",
+            "description": "Moderate rain",
+            "icon": "10d"
+          }
         },
         {
-          "date": "9/9/2021, 12:02:56 AM",
-          "id": "e7c08350-10f8-11ec-8fbf-1fc75a3bd13b",
-          "code": 804,
-          "temperature": 16.56,
-          "windSpeed": 1.34,
-          "windDirection": 156,
-          "pressure": 1007
+          "date": "9/11/2021, 9:52:19 AM",
+          "id": "bcfc4130-13a6-11ec-9608-ed49db7b073c",
+          "code": 501,
+          "temperature": 12.44,
+          "windSpeed": 1.79,
+          "windDirection": 5,
+          "pressure": 1019,
+          "beaufort": 1,
+          "tempCelcius": 12.44,
+          "tempFahrenheit": 54,
+          "beaufortLabel": "Light Air",
+          "windCompass": "N",
+          "windChill": 14,
+          "weatherInfo": {
+            "id": 501,
+            "main": "Rain",
+            "description": "Moderate rain",
+            "icon": "10d"
+          }
         },
         {
-          "date": "9/8/2021, 12:15:09 AM",
-          "id": "9c4f3db0-10fa-11ec-9642-ff586166723e",
-          "code": 804,
-          "temperature": 17.56,
-          "windSpeed": 1.71,
-          "windDirection": 156,
-          "pressure": 1006
+          "date": "9/12/2021, 9:52:22 AM",
+          "id": "be6e95e0-13a6-11ec-9608-ed49db7b073c",
+          "code": 501,
+          "temperature": 11.44,
+          "windSpeed": 1.11,
+          "windDirection": 5,
+          "pressure": 1019,
+          "beaufort": 1,
+          "tempCelcius": 12.44,
+          "tempFahrenheit": 54,
+          "beaufortLabel": "Light Air",
+          "windCompass": "N",
+          "windChill": 14,
+          "weatherInfo": {
+            "id": 501,
+            "main": "Rain",
+            "description": "Moderate rain",
+            "icon": "10d"
+          }
+        },
+        {
+          "date": "9/12/2021, 9:55:10 AM",
+          "id": "229b44f0-13a7-11ec-a96f-d30abf12b560",
+          "code": 501,
+          "temperature": 9.12,
+          "windSpeed": 0.2,
+          "windDirection": 102,
+          "pressure": 1021,
+          "beaufort": 0,
+          "tempCelcius": 9.12,
+          "tempFahrenheit": 48,
+          "beaufortLabel": "Calm",
+          "windCompass": "ESE",
+          "windChill": 13,
+          "weatherInfo": {
+            "id": 501,
+            "main": "Rain",
+            "description": "Moderate rain",
+            "icon": "10d"
+          }
         }
       ],
       "report": {
         "tempTrend": [
-          18.07,
-          17.1,
-          17.4,
-          15.26,
-          15.09,
-          16.52,
-          18.1,
-          16.69
+          12.17,
+          15.17,
+          18.23,
+          17.62,
+          16.61,
+          16.63,
+          16.41,
+          16.35
         ],
         "trendLabels": [
-          "9/8/2021",
-          "10/8/2021",
-          "11/8/2021",
           "12/8/2021",
           "13/8/2021",
           "14/8/2021",
           "15/8/2021",
-          "16/8/2021"
+          "16/8/2021",
+          "17/8/2021",
+          "18/8/2021",
+          "19/8/2021"
         ]
       },
-      "temperatureTrend": "",
-      "windSpeedTrend": "",
+      "temperatureTrend": "arrow down icon",
+      "windSpeedTrend": "arrow down icon",
       "pressureTrend": "",
       "latestReading": {
-        "date": "Sep 9, 2021, 12:15:09 AM",
-        "id": "9c4f3db0-10fa-11ec-9642-ff586166723e",
-        "code": 804,
-        "temperature": 16.56,
-        "windSpeed": 1.34,
-        "windDirection": 156,
-        "pressure": 1007
+        "date": "9/12/2021, 9:55:10 AM",
+        "id": "229b44f0-13a7-11ec-a96f-d30abf12b560",
+        "code": 501,
+        "temperature": 9.12,
+        "windSpeed": 0.2,
+        "windDirection": 102,
+        "pressure": 1021,
+        "beaufort": 0,
+        "tempCelcius": 9.12,
+        "tempFahrenheit": 48,
+        "beaufortLabel": "Calm",
+        "windCompass": "ESE",
+        "windChill": 13,
+        "weatherInfo": {
+          "id": 501,
+          "main": "Rain",
+          "description": "Moderate rain",
+          "icon": "10d"
+        }
       },
-      "maxTemperature": 16.56,
-      "minTemperature": 16.38,
-      "maxPressure": 1008,
-      "minPressure": 1007,
-      "tempCelcius": 16.56,
-      "tempFahrenheit": 62,
-      "beaufortLabel": "Light Air",
-      "beaufort": 1,
-      "windCompass": "SSE",
-      "windChill": 18,
-      "weatherInfo": {
-        "id": 804,
-        "main": "Clouds",
-        "description": "Overcast clouds: 85-100%",
-        "icon": "04d"
-      }
+      "maxBeaufort": 2,
+      "minBeaufort": 0,
+      "maxTemperature": 12.44,
+      "minTemperature": 9.12,
+      "maxPressure": 1021,
+      "minPressure": 1019
     },
     {
-      "id": "0fd72c70-10ce-11ec-b72d-19ff4e5898e1",
+      "id": "5d03e270-13a5-11ec-aba7-47419a209eb3",
       "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
       "name": "Kilmore",
       "latitude": "52.2056",
       "longitude": "-6.5474",
       "readings": [
         {
-          "date": "9/8/2021, 9:14:34 PM",
-          "id": "620ae550-10e1-11ec-81d2-2be7f032ba87",
-          "code": 804,
-          "temperature": 16.3,
-          "windSpeed": 1.13,
-          "windDirection": 102,
-          "pressure": 1008
+          "date": "9/12/2021, 9:52:07 AM",
+          "id": "b5a41110-13a6-11ec-9608-ed49db7b073c",
+          "code": 500,
+          "temperature": 12.32,
+          "windSpeed": 3.47,
+          "windDirection": 339,
+          "pressure": 1020,
+          "beaufort": 1,
+          "tempCelcius": 12.32,
+          "tempFahrenheit": 54,
+          "beaufortLabel": "Light Air",
+          "windCompass": "NNW",
+          "windChill": 13,
+          "weatherInfo": {
+            "id": 500,
+            "main": "Rain",
+            "description": "Light rain",
+            "icon": "10d"
+          }
         },
         {
-          "date": "9/9/2021, 12:02:42 AM",
-          "id": "df106450-10f8-11ec-8fbf-1fc75a3bd13b",
-          "code": 804,
-          "temperature": 16.85,
-          "windSpeed": 0.99,
-          "windDirection": 96,
-          "pressure": 1008
+          "date": "9/12/2021, 9:52:09 AM",
+          "id": "b6f410b0-13a6-11ec-9608-ed49db7b073c",
+          "code": 500,
+          "temperature": 12.32,
+          "windSpeed": 3.47,
+          "windDirection": 339,
+          "pressure": 1020,
+          "beaufort": 1,
+          "tempCelcius": 12.32,
+          "tempFahrenheit": 54,
+          "beaufortLabel": "Light Air",
+          "windCompass": "NNW",
+          "windChill": 13,
+          "weatherInfo": {
+            "id": 500,
+            "main": "Rain",
+            "description": "Light rain",
+            "icon": "10d"
+          }
+        },
+        {
+          "date": "9/12/2021, 9:52:11 AM",
+          "id": "b8111970-13a6-11ec-9608-ed49db7b073c",
+          "code": 500,
+          "temperature": 12.32,
+          "windSpeed": 3.47,
+          "windDirection": 339,
+          "pressure": 1020,
+          "beaufort": 1,
+          "tempCelcius": 12.32,
+          "tempFahrenheit": 54,
+          "beaufortLabel": "Light Air",
+          "windCompass": "NNW",
+          "windChill": 13,
+          "weatherInfo": {
+            "id": 500,
+            "main": "Rain",
+            "description": "Light rain",
+            "icon": "10d"
+          }
         }
       ],
       "report": {
         "tempTrend": [
-          17.14,
-          17.46,
-          17.7,
-          14.35,
-          15.18,
-          16.3,
-          17.87,
-          16.66
+          12.06,
+          15.72,
+          17.29,
+          17.51,
+          16.8,
+          15.73,
+          16.57,
+          16.36
         ],
         "trendLabels": [
-          "9/8/2021",
-          "10/8/2021",
-          "11/8/2021",
           "12/8/2021",
           "13/8/2021",
           "14/8/2021",
           "15/8/2021",
-          "16/8/2021"
+          "16/8/2021",
+          "17/8/2021",
+          "18/8/2021",
+          "19/8/2021"
         ]
       },
       "temperatureTrend": "",
       "windSpeedTrend": "",
       "pressureTrend": "",
       "latestReading": {
-        "date": "Sep 9, 2021, 12:02:42 AM",
-        "id": "df106450-10f8-11ec-8fbf-1fc75a3bd13b",
-        "code": 804,
-        "temperature": 16.85,
-        "windSpeed": 0.99,
-        "windDirection": 96,
-        "pressure": 1008
-      },
-      "maxTemperature": 16.85,
-      "minTemperature": 16.3,
-      "maxPressure": 1008,
-      "minPressure": 1008,
-      "tempCelcius": 16.85,
-      "tempFahrenheit": 62,
-      "beaufortLabel": "Calm",
-      "beaufort": 0,
-      "windCompass": "E",
-      "windChill": 19,
-      "weatherInfo": {
-        "id": 804,
-        "main": "Clouds",
-        "description": "Overcast clouds: 85-100%",
-        "icon": "04d"
-      }
-    },
-    {
-      "id": "e0012260-10f7-11ec-8fbf-1fc75a3bd13b",
-      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
-      "name": "Dungarvan",
-      "latitude": "52.0937",
-      "longitude": "-7.6204",
-      "readings": [
-        {
-          "date": "9/8/2021, 11:57:57 PM",
-          "id": "35365610-10f8-11ec-8fbf-1fc75a3bd13b",
-          "code": 804,
-          "temperature": 16.85,
-          "windSpeed": 1.6,
-          "windDirection": 112,
-          "pressure": 1007
-        },
-        {
-          "date": "9/9/2021, 12:02:34 AM",
-          "id": "da9e3d20-10f8-11ec-8fbf-1fc75a3bd13b",
-          "code": 804,
-          "temperature": 16.85,
-          "windSpeed": 1.6,
-          "windDirection": 112,
-          "pressure": 1007
+        "date": "9/12/2021, 9:52:11 AM",
+        "id": "b8111970-13a6-11ec-9608-ed49db7b073c",
+        "code": 500,
+        "temperature": 12.32,
+        "windSpeed": 3.47,
+        "windDirection": 339,
+        "pressure": 1020,
+        "beaufort": 1,
+        "tempCelcius": 12.32,
+        "tempFahrenheit": 54,
+        "beaufortLabel": "Light Air",
+        "windCompass": "NNW",
+        "windChill": 13,
+        "weatherInfo": {
+          "id": 500,
+          "main": "Rain",
+          "description": "Light rain",
+          "icon": "10d"
         }
-      ],
-      "report": {
-        "tempTrend": [
-          18.42,
-          17.4,
-          17.84,
-          14.53,
-          15.69,
-          16.3,
-          18.63,
-          17
-        ],
-        "trendLabels": [
-          "9/8/2021",
-          "10/8/2021",
-          "11/8/2021",
-          "12/8/2021",
-          "13/8/2021",
-          "14/8/2021",
-          "15/8/2021",
-          "16/8/2021"
-        ]
       },
-      "temperatureTrend": "",
-      "windSpeedTrend": "",
-      "pressureTrend": "",
-      "latestReading": {
-        "date": "9/9/2021, 12:02:34 AM",
-        "id": "da9e3d20-10f8-11ec-8fbf-1fc75a3bd13b",
-        "code": 804,
-        "temperature": 16.85,
-        "windSpeed": 1.6,
-        "windDirection": 112,
-        "pressure": 1007
-      },
-      "maxTemperature": 16.85,
-      "minTemperature": 16.85,
-      "maxPressure": 1007,
-      "minPressure": 1007,
-      "tempCelcius": 16.85,
-      "tempFahrenheit": 62,
-      "beaufortLabel": "Light Air",
-      "beaufort": 1,
-      "windCompass": "ESE",
-      "windChill": 19,
-      "weatherInfo": {
-        "id": 804,
-        "main": "Clouds",
-        "description": "Overcast clouds: 85-100%",
-        "icon": "04d"
-      }
+      "maxBeaufort": 1,
+      "minBeaufort": 1,
+      "maxTemperature": 12.32,
+      "minTemperature": 12.32,
+      "maxPressure": 1020,
+      "minPressure": 1020
     },
     {
-      "id": "28505590-10f8-11ec-8fbf-1fc75a3bd13b",
+      "id": "6a1e1250-13a5-11ec-aba7-47419a209eb3",
       "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
       "name": "Derrynane",
       "latitude": "51.7654",
       "longitude": "-10.1209",
       "readings": [
         {
-          "date": "9/8/2021, 11:57:46 PM",
-          "id": "2efa9270-10f8-11ec-8fbf-1fc75a3bd13b",
-          "code": 500,
-          "temperature": 16.93,
-          "windSpeed": 2.37,
-          "windDirection": 8,
-          "pressure": 1006
+          "date": "9/12/2021, 9:51:59 AM",
+          "id": "b104bf60-13a6-11ec-9608-ed49db7b073c",
+          "code": 804,
+          "temperature": 12.85,
+          "windSpeed": 1.95,
+          "windDirection": 83,
+          "pressure": 1020,
+          "beaufort": 1,
+          "tempCelcius": 12.85,
+          "tempFahrenheit": 55,
+          "beaufortLabel": "Light Air",
+          "windCompass": "E",
+          "windChill": 14,
+          "weatherInfo": {
+            "id": 804,
+            "main": "Clouds",
+            "description": "Overcast clouds: 85-100%",
+            "icon": "04d"
+          }
         },
         {
-          "date": "9/9/2021, 12:02:24 AM",
-          "id": "d44f3fa0-10f8-11ec-8fbf-1fc75a3bd13b",
-          "code": 500,
-          "temperature": 16.93,
-          "windSpeed": 2.37,
-          "windDirection": 8,
-          "pressure": 1006
-        },
-        {
-          "date": "9/11/2021, 3:27:15 PM",
-          "id": "5cc67cd0-130c-11ec-ba7c-9daa85841ad8",
-          "code": 200,
-          "temperature": 12,
-          "windSpeed": 100,
-          "windDirection": 102,
-          "pressure": 1001
-        },
-        {
-          "date": "9/12/2021, 8:01:23 AM",
-          "id": "3d462780-1397-11ec-8f02-03dfd1da5f4d",
-          "code": 501,
-          "temperature": 12.43,
-          "windSpeed": 2.85,
-          "windDirection": 56,
-          "pressure": 1019
+          "date": "9/12/2021, 9:55:24 AM",
+          "id": "2b53c860-13a7-11ec-a96f-d30abf12b560",
+          "code": 804,
+          "temperature": 12.85,
+          "windSpeed": 1.95,
+          "windDirection": 83,
+          "pressure": 1020,
+          "beaufort": 1,
+          "tempCelcius": 12.85,
+          "tempFahrenheit": 55,
+          "beaufortLabel": "Light Air",
+          "windCompass": "E",
+          "windChill": 14,
+          "weatherInfo": {
+            "id": 804,
+            "main": "Clouds",
+            "description": "Overcast clouds: 85-100%",
+            "icon": "04d"
+          }
         }
       ],
       "report": {
         "tempTrend": [
-          15.21,
+          14.27,
           16.46,
           18.44,
           16.86,
@@ -310,155 +345,32 @@
       "windSpeedTrend": "",
       "pressureTrend": "",
       "latestReading": {
-        "date": "9/11/2021, 3:27:15 PM",
-        "id": "5cc67cd0-130c-11ec-ba7c-9daa85841ad8",
-        "code": 200,
-        "temperature": 12,
-        "windSpeed": 100,
-        "windDirection": 102,
-        "pressure": 1001
-      },
-      "maxTemperature": 16.93,
-      "minTemperature": 12,
-      "maxPressure": 1006,
-      "minPressure": 1001,
-      "tempCelcius": 12,
-      "tempFahrenheit": 54,
-      "beaufortLabel": "Strong Storm",
-      "beaufort": 10,
-      "windCompass": "ESE",
-      "windChill": 7,
-      "weatherInfo": {
-        "id": 200,
-        "main": "Thunderstorm",
-        "descriptionription": " Thunderstorm with light rain",
-        "icon": "11d"
-      }
-    },
-    {
-      "id": "4409cf20-12ef-11ec-9124-331fb761ac41",
-      "userid": "2c444c80-12ef-11ec-9124-331fb761ac41",
-      "name": "London",
-      "latitude": "51.5074",
-      "longitude": "-0.1278",
-      "readings": []
-    },
-    {
-      "id": "6057e720-12ef-11ec-9124-331fb761ac41",
-      "userid": "2c444c80-12ef-11ec-9124-331fb761ac41",
-      "name": "Listowel",
-      "latitude": "52.4460",
-      "longitude": "-9.4854",
-      "readings": [
-        {
-          "date": "9/11/2021, 11:59:55 AM",
-          "id": "65f8a340-12ef-11ec-9124-331fb761ac41",
-          "code": 804,
-          "temperature": 15.15,
-          "windSpeed": 2.81,
-          "windDirection": 326,
-          "pressure": 1017
-        },
-        {
-          "date": "9/11/2021, 12:00:08 PM",
-          "id": "6d7dafc0-12ef-11ec-9124-331fb761ac41",
-          "code": 800,
-          "temperature": 20,
-          "windSpeed": 12,
-          "windDirection": 121,
-          "pressure": 1001
-        }
-      ],
-      "report": {
-        "tempTrend": [
-          15.33,
-          15.96,
-          15.56,
-          17.4,
-          17.46,
-          18.58,
-          15.64,
-          16.24
-        ],
-        "trendLabels": [
-          "11/8/2021",
-          "12/8/2021",
-          "13/8/2021",
-          "14/8/2021",
-          "15/8/2021",
-          "16/8/2021",
-          "17/8/2021",
-          "18/8/2021"
-        ]
-      },
-      "temperatureTrend": "",
-      "windSpeedTrend": "",
-      "pressureTrend": "",
-      "latestReading": {
-        "date": "9/11/2021, 11:59:55 AM",
-        "id": "65f8a340-12ef-11ec-9124-331fb761ac41",
+        "date": "9/12/2021, 9:55:24 AM",
+        "id": "2b53c860-13a7-11ec-a96f-d30abf12b560",
         "code": 804,
-        "temperature": 15.15,
-        "windSpeed": 2.81,
-        "windDirection": 326,
-        "pressure": 1017
-      },
-      "maxTemperature": 15.15,
-      "minTemperature": 15.15,
-      "maxPressure": 1017,
-      "minPressure": 1017,
-      "tempCelcius": 15.15,
-      "tempFahrenheit": 59,
-      "beaufortLabel": "Light Air",
-      "beaufort": 1,
-      "windCompass": "WNW",
-      "windChill": 16,
-      "weatherInfo": {
-        "id": 804,
-        "main": "Clouds",
-        "description": "Overcast clouds: 85-100%",
-        "icon": "04d"
-      }
-    },
-    {
-      "id": "9e7b8340-130d-11ec-a364-e57b54b5dc85",
-      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
-      "name": "Death Valley",
-      "latitude": "36.5323",
-      "longitude": "-116.9325",
-      "readings": [
-        {
-          "date": "9/11/2021, 3:36:18 PM",
-          "id": "a06ddd60-130d-11ec-a364-e57b54b5dc85",
-          "code": 800,
-          "temperature": 34.63,
-          "windSpeed": 0.58,
-          "windDirection": 118,
-          "pressure": 1012
+        "temperature": 12.85,
+        "windSpeed": 1.95,
+        "windDirection": 83,
+        "pressure": 1020,
+        "beaufort": 1,
+        "tempCelcius": 12.85,
+        "tempFahrenheit": 55,
+        "beaufortLabel": "Light Air",
+        "windCompass": "E",
+        "windChill": 14,
+        "weatherInfo": {
+          "id": 804,
+          "main": "Clouds",
+          "description": "Overcast clouds: 85-100%",
+          "icon": "04d"
         }
-      ],
-      "report": {
-        "tempTrend": [
-          39,
-          39.82,
-          38.24,
-          37.19,
-          38.12,
-          35.88,
-          34.92,
-          32.05
-        ],
-        "trendLabels": [
-          "11/8/2021",
-          "12/8/2021",
-          "13/8/2021",
-          "14/8/2021",
-          "15/8/2021",
-          "16/8/2021",
-          "17/8/2021",
-          "18/8/2021"
-        ]
-      }
+      },
+      "maxBeaufort": 1,
+      "minBeaufort": 1,
+      "maxTemperature": 12.85,
+      "minTemperature": 12.85,
+      "maxPressure": 1020,
+      "minPressure": 1020
     }
   ]
 }

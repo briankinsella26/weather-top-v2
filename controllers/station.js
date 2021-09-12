@@ -2,7 +2,6 @@
 
 const logger = require("../utils/logger");
 const stationStore = require("../models/station-store");
-const stationAnalytics = require("../utils/station-analytics");
 const uuid = require("uuid");
 const axios = require("axios");
 const apiKey = "c7d9b7e8290a4ebd02ae98f4cdfc9c00";
@@ -11,9 +10,6 @@ const station = {
   index(request, response) {
     const stationId = request.params.id;
     const station = stationStore.getStation(stationId);
-    if (station.readings.length > 0) {
-      stationAnalytics.updateWeather(station);
-    }
     const viewData = {
       title: "Station",
       station: station,

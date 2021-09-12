@@ -4,18 +4,11 @@ const accounts = require("./accounts.js");
 const logger = require("../utils/logger");
 const stationStore = require("../models/station-store");
 const uuid = require("uuid");
-const stationAnalytics = require("../utils/station-analytics.js");
 
 const dashboard = {
   index(request, response) {
     logger.info("dashboard rendering");
     const loggedInUser = accounts.getCurrentUser(request);
-    let stations = stationStore.getUserStations(loggedInUser.id);
-    stations.forEach((station) => {
-      if (station.readings.length > 0) {
-        stationAnalytics.updateWeather(station);
-      }
-    });
     const viewData = {
       title: "Station Dashboard",
       stations: stationStore.getUserStations(loggedInUser.id),

@@ -24,15 +24,15 @@ const stationAnalytics = {
     let maxReading = readings[0];
     readings.forEach((reading) => {
       if (readingType == "beaufort") {
-        if (reading.beaufort > maxReading.beaufort) {
+        if (reading.beaufort >= maxReading.beaufort) {
           maxReading = reading;
         }
       } else if (readingType == "temperature") {
-        if (reading.temperature > maxReading.temperature) {
+        if (reading.temperature >= maxReading.temperature) {
           maxReading = reading;
         }
       } else if (readingType == "pressure") {
-        if (reading.pressure > maxReading.pressure) {
+        if (reading.pressure >= maxReading.pressure) {
           maxReading = reading;
         }
       } else {
@@ -46,15 +46,15 @@ const stationAnalytics = {
     let minReading = readings[0];
     readings.forEach((reading) => {
       if (readingType == "beaufort") {
-        if (reading.beaufort < minReading.beaufort) {
+        if (reading.beaufort <= minReading.beaufort) {
           minReading = reading;
         }
       } else if (readingType == "temperature") {
-        if (reading.temperature < minReading.temperature) {
+        if (reading.temperature <= minReading.temperature) {
           minReading = reading;
         }
       } else if (readingType == "pressure") {
-        if (reading.pressure < minReading.pressure) {
+        if (reading.pressure <= minReading.pressure) {
           minReading = reading;
         }
       } else {
@@ -106,22 +106,22 @@ const stationAnalytics = {
       (station.windSpeedTrend = this.getWeatherTrendIcon(station.readings, "windSpeed")),
       (station.pressureTrend = this.getWeatherTrendIcon(station.readings, "pressure")),
       (station.latestReading = this.getLatestReading(station.readings)),
+      (station.latestReading.beaufort = conversions.getBeaufort(station.latestReading.windSpeed).beaufort),
       (station.maxBeaufort = this.getMaxReading(station.readings, "beaufort").beaufort),
       (station.minBeaufort = this.getMinReading(station.readings, "beaufort").beaufort),
       (station.maxTemperature = this.getMaxReading(station.readings, "temperature").temperature),
       (station.minTemperature = this.getMinReading(station.readings, "temperature").temperature),
       (station.maxPressure = this.getMaxReading(station.readings, "pressure").pressure),
       (station.minPressure = this.getMinReading(station.readings, "pressure").pressure),
-      (station.tempCelcius = station.latestReading.temperature),
-      (station.tempFahrenheit = conversions.getFahrenheit(station.tempCelcius)),
-      (station.beaufortLabel = conversions.getBeaufort(station.latestReading.windSpeed).label),
-      (station.beaufort = conversions.getBeaufort(station.latestReading.windSpeed).beaufort),
-      (station.windCompass = conversions.getWindCompass(station.latestReading.windDirection)),
-      (station.windChill = conversions.getWindChill(
+      (station.latestReading.tempCelcius = station.latestReading.temperature),
+      (station.latestReading.tempFahrenheit = conversions.getFahrenheit(station.latestReading.tempCelcius)),
+      (station.latestReading.beaufortLabel = conversions.getBeaufort(station.latestReading.windSpeed).label),
+      (station.latestReading.windCompass = conversions.getWindCompass(station.latestReading.windDirection)),
+      (station.latestReading.windChill = conversions.getWindChill(
         station.latestReading.temperature,
         station.latestReading.windSpeed
       )),
-      (station.weatherInfo = weatherCodes.getWeatherInfo(station.latestReading.code));
+      (station.latestReading.weatherInfo = weatherCodes.getWeatherInfo(station.latestReading.code));
     return station;
   },
 };

@@ -15,11 +15,14 @@
     <div class="content">
       <br />
       <h4 class="icon header ui right floated">
-        <img class="ui huge image right floated" src="https://rainy-stump-sesame.glitch.me/icons/{{weatherInfo.icon}}@2x.png" />
+        <img
+          class="ui huge image right floated"
+          src="https://rainy-stump-sesame.glitch.me/icons/{{latestReading.weatherInfo.icon}}@2x.png"
+        />
       </h4>
       <div class="header">Weather</div>
       <br />
-      <div class="meta">{{weatherInfo.description}}</div>
+      <div class="meta">{{latestReading.weatherInfo.description}}</div>
     </div>
   </div>
   <div class="card">
@@ -30,8 +33,8 @@
       </h4>
       <div class="header">Temp</div>
       <br />
-      <div class="meta">{{tempCelcius}} C</div>
-      <div class="meta">{{tempFahrenheit}} F</div>
+      <div class="meta">{{latestReading.tempCelcius}} C</div>
+      <div class="meta">{{latestReading.tempFahrenheit}} F</div>
       <h6 class="icon header ui right floated">
         <i class="ui blue {{temperatureTrend}}"></i>
       </h6>
@@ -47,13 +50,13 @@
       </h4>
       <div class="header">Wind</div>
       <br />
-      <div class="meta">{{beaufort}} bft</div>
-      <div class="meta">{{windCompass}}</div>
+      <div class="meta">{{latestReading.beaufort}} bft</div>
+      <div class="meta">{{latestReading.windCompass}}</div>
       <h6 class="icon header ui right floated">
         <i class="ui green {{windSpeedTrend}}"></i>
       </h6>
       <div class="meta">Feels like</div>
-      <div class="meta">{{windChill}} C</div>
+      <div class="meta">{{latestReading.windChill}} C</div>
       <div class="meta">Max: {{maxBeaufort}}</div>
       <div class="meta">Min: {{minBeaufort}}</div>
     </div>
