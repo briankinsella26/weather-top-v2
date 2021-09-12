@@ -44,7 +44,7 @@ const accounts = {
   authenticate(request, response) {
     const user = userstore.getUserByEmail(request.body.email);
     if (user && request.body.password == user.password) {
-      response.cookie('weathertop', user.email);
+      response.cookie("weathertop", user.email);
       logger.info(`logging in ${user.email}`);
       response.redirect("/dashboard");
     } else {
@@ -66,8 +66,9 @@ const accounts = {
       user.password = request.body.password;
     }
     user.email = request.body.email;
+    userstore.updateUser(user);
     response.redirect("/dashboard");
-  }
+  },
 };
 
 module.exports = accounts;

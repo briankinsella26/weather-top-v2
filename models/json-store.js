@@ -18,6 +18,10 @@ class JsonStore {
     this.db.get(collection).push(obj).last().value();
   }
 
+  edit(collection, filter, obj) {
+    return this.db.get(collection).filter(filter).write(obj);
+  }
+
   remove(collection, obj) {
     this.db.get(collection).remove(obj).value();
   }
