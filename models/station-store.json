@@ -8,7 +8,7 @@
       "longitude": "-7.1524",
       "readings": [
         {
-          "date": "Sep 8, 2021, 9:14:56 PM",
+          "date": "9/7/2021, 9:14:56 PM",
           "id": "6f7b99a0-10e1-11ec-81d2-2be7f032ba87",
           "code": 741,
           "temperature": 16.38,
@@ -17,7 +17,7 @@
           "pressure": 1008
         },
         {
-          "date": "Sep 9, 2021, 12:02:56 AM",
+          "date": "9/9/2021, 12:02:56 AM",
           "id": "e7c08350-10f8-11ec-8fbf-1fc75a3bd13b",
           "code": 804,
           "temperature": 16.56,
@@ -26,7 +26,7 @@
           "pressure": 1007
         },
         {
-          "date": "Sep 10, 2021, 12:15:09 AM",
+          "date": "9/8/2021, 12:15:09 AM",
           "id": "9c4f3db0-10fa-11ec-9642-ff586166723e",
           "code": 804,
           "temperature": 17.56,
@@ -94,7 +94,7 @@
       "longitude": "-6.5474",
       "readings": [
         {
-          "date": "Sep 8, 2021, 9:14:34 PM",
+          "date": "9/8/2021, 9:14:34 PM",
           "id": "620ae550-10e1-11ec-81d2-2be7f032ba87",
           "code": 804,
           "temperature": 16.3,
@@ -103,7 +103,7 @@
           "pressure": 1008
         },
         {
-          "date": "Sep 9, 2021, 12:02:42 AM",
+          "date": "9/9/2021, 12:02:42 AM",
           "id": "df106450-10f8-11ec-8fbf-1fc75a3bd13b",
           "code": 804,
           "temperature": 16.85,
@@ -171,7 +171,7 @@
       "longitude": "-7.6204",
       "readings": [
         {
-          "date": "Sep 8, 2021, 11:57:57 PM",
+          "date": "9/8/2021, 11:57:57 PM",
           "id": "35365610-10f8-11ec-8fbf-1fc75a3bd13b",
           "code": 804,
           "temperature": 16.85,
@@ -180,7 +180,7 @@
           "pressure": 1007
         },
         {
-          "date": "Sep 9, 2021, 12:02:34 AM",
+          "date": "9/9/2021, 12:02:34 AM",
           "id": "da9e3d20-10f8-11ec-8fbf-1fc75a3bd13b",
           "code": 804,
           "temperature": 16.85,
@@ -215,7 +215,7 @@
       "windSpeedTrend": "",
       "pressureTrend": "",
       "latestReading": {
-        "date": "Sep 9, 2021, 12:02:34 AM",
+        "date": "9/9/2021, 12:02:34 AM",
         "id": "da9e3d20-10f8-11ec-8fbf-1fc75a3bd13b",
         "code": 804,
         "temperature": 16.85,
